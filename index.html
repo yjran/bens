@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BENS</title>
+    <link href="css/base.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/jquery.fadethis.js"></script>
+
+    <!-- 스와이프 슬라이더 -->
+    <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+</head>
+<body>
+    <header>
+        <!-- 모바일메뉴 -->
+        <div id="mobile">
+            <p><img src="img/menu.png" alt="벤스"></p>
+            <div class="m-pop">
+                <ul class="m-menu">
+                    <li><a href="living.html">소파/거실</a>
+                        <ul class="m-sub">
+                            <li>소파</li>
+                            <li>암체어</li>
+                            <li>소파테이블</li>
+                            <li>거실장</li>
+                            <li>장식장</li>
+                        </ul>
+                        </li>
+                    <li><a href="bed.html">침대/침실</a>
+                            <ul class="m-sub">
+                            <li>침대</li>
+                            <li>매트리스</li>
+                            <li>협탁</li>
+                            <li>화장대</li>
+                            <li>옷장</li>
+                        </ul>
+                    </li>
+                    <li><a href="kitchen.html">식탁/체어</a>
+                        <ul class="m-sub">
+                            <li>식탁</li>
+                            <li>의자</li>
+                        </ul>
+                    </li>
+                    <li><a href="desk.html">서재/수납</a>
+                        <ul class="m-sub">
+                            <li>데스크</li>
+                            <li>서랍장</li>
+                            <li>거울/조명</li>
+                            <li>쿠션/패브릭</li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="m-menu2">
+                    <ul>
+                        <li><a href="login.html">로그인</a></li>
+                        <li><a href="join.html">회원가입</a></li>
+                        <li>장바구니</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="m-popx"></div>
+            </div>   
+        </div>
+
+    <!-- /모바일메뉴 종료 -->
+
+        <nav class="inner clearfix">
+            <div id="top"><a href="login.html">로그인</a> <a href="join.html">회원가입</a> <a href="">장바구니</a> </div>
+            <div class="logo"><a href="index.html"><img src="img/bens_logo.png" alt="벤스"></a></div>
+            <ul class="gnb">
+                <li><a href="living.html">소파/거실</a>
+                    <ul class="sub">
+                        <li><a href="living.html">소파</a></li>
+                        <li><a href="living.html">암체어</a></li>
+                        <li><a href="living.html">소파테이블</a></li>
+                        <li><a href="living.html">거실장</a></li>
+                        <li><a href="living.html">장식장</a></li>
+                    </ul>
+                </li>
+                <li><a href="bed.html">침대/침실</a>
+                    <ul class="sub">
+                        <li><a href="bed.html">침대</a></li>
+                        <li><a href="bed.html">매트리스</a></li>
+                        <li><a href="bed.html">협탁</a></li>
+                        <li><a href="bed.html">화장대</a></li>
+                        <li><a href="bed.html">옷장</a></li>
+                    </ul>
+                </li>
+                <li><a href="kitchen.html">식탁/체어</a>
+                    <ul class="sub">
+                        <li><a href="kitchen.html">식탁</a></li>
+                        <li><a href="kitchen.html">식탁의자</a></li>
+                    </ul>
+                </li>
+                <li><a href="desk.html">서재/수납</a>
+                    <ul class="sub">
+                        <li><a href="desk.html">데스크</a></li>
+                        <li><a href="desk.html">서랍장</a></li>
+                        <li><a href="desk.html">거울/조명</a></li>
+                        <li><a href="desk.html">쿠션/패브릭</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+<!-- 슬라이드 메인배너 -->
+    <div class="swipter mainbn">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="img/mainbn/main 03-2.jpg" alt="벤스">
+                <div class="mb-1">
+                    <h1>Desento</h1>
+                    <h2>세련된무드를 완성하는<br>
+                        스페인산 세라믹<br>
+                        데센트테이블</h2>
+                    <h3><a href="">DISCOVER MORE →</a></h3>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <img src="img/mainbn/main 02-1.jpg" alt="벤스">
+                <div class="mb-2">
+                    <h1>Velottie</h1>
+                    <h2>매혹적인 호텔무드<br>
+                        절대적인 세련미<br>
+                        벨로티침대</h2>
+                    <h3><a href="">DISCOVER MORE →</a></h3>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <img src="img/mainbn/main 01-1.jpg" alt="벤스">
+                <div class="mb-3">
+                    <h1>Herman</h1>
+                    <h2>이탈리아의 헤리티지<br>
+                        고혹적인 프리미엄 나파가죽<br>
+                        헤르만소파</h2>
+                    <h3><a href="">DISCOVER MORE →</a></h3>
+                </div>
+            </div>
+        </div>
+        
+       <div class="mbb">
+            <div thumbsSlider="" dir="rtl" class="swiper mainbtn">
+                <ul class="swiper-wrapper">
+                    <li class="swiper-slide">01<br>
+                        Desento<br>
+                        세련된무드를 완성하는<br>
+                        스페인산 세라믹<br>
+                        데센트테이블</li>  
+                       
+                    <li class="swiper-slide">02<br>
+                        Velottie<br>
+                        매혹적인 호텔무드<br>
+                        절대적인 세련미<br>
+                        벨로티침대</li>
+                    <li class="swiper-slide">03<br>
+                        Herman<br>
+                        이탈리아의 헤리티지<br>
+                        고혹적인 프리미엄 나파가죽<br>
+                        헤르만소파</li>
+                </ul>
+            </div>
+       </div class="mbb">
+
+    </div>
+
+
+        
+    </div> <!-- /#mainbn -->
+    <main>
+        <div id="section1">
+            <h1>FAVORITES</h1>
+            <div class="inner clearfix">
+                <div class="scrollArea clearfix">
+                    <ul class="s1-left">
+                        <li>
+                            <div><img src="img/favorites/left-1.jpg" alt="벤스"></div>
+                            <div class="s1-over"><a href="living.html"><img src="img/favorites/left-1-1.png" alt=""></a></div>
+                        </li>
+                        <li>
+                            <div><img src="img/favorites/left-2.jpg" alt="벤스"></div>
+                            <div class="s1-over"><a href="desk.html"><img src="img/favorites/left-2-1.png" alt=""></a></div>
+                        </li>
+                        <li>
+                            <div><img src="img/favorites/left-3.jpg" alt="벤스"></div>
+                            <div class="s1-over"><a href="kitchen.html"><img src="img/favorites/left-3-1.png" alt=""></a></div>
+                        </li>
+                        <li>
+                            <div><img src="img/favorites/left-4.jpg" alt="벤스"></div>
+                            <div class="s1-over"><a href="bed.html"><img src="img/favorites/left-4-1.png" alt=""></a></div>
+                        </li>
+                       <div class="vr">
+                            <div><img src="img/favorites/left-5.jpg" alt="벤스"></div>
+                            <div class="vr-over"></div>
+                            <p class="vr1">쇼룸에 직접 가 본것처럼<br>
+                                VR로 생생하게 쇼룸을 경험해 보세요!</p>
+                            <p class="vr2"><a href="">VR 쇼룸 바로가기→</a></p>
+                       </div>
+                    </ul>
+    
+                    <div class="s1-right">
+                        <ul class="fav clearfix">
+                            <li>
+                                <div class="box">
+                                    <div class="f-img">
+                                        <a href=""><img src="img/favorites/best01.jpg" alt="벤스"></a>
+                                        <div class="over"><a href=""><img src="img/favorites/best01-1.jpg" alt=""></a></div>
+                                    </div>
+                                    <h5>하임 천연가죽 4인 소파<br>
+                                        New Haim</h5>
+                                    <h6>1,720,000원</h6>
+                                    <ul class="b01">
+                                        <li></li><li></li><li></li><li></li><li></li>
+                                    </ul>
+                                    <div class="best">BEST</div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="box">
+                                    <div class="f-img">
+                                        <a href=""><img src="img/favorites/best02.jpg" alt="벤스"></a><div class="over"><a href="">
+                                        <img src="img/favorites/best02-1.jpg" alt="벤스"></a></div>
+                                    </div>
+                                    <h5>쏠리도 스페인 세라믹 테이블(확장형)<br>
+                                        Solido</h5>
+                                    <h6>798,000원</h6>
+                                    <ul class="b02">
+                                        <li></li><li></li>
+                                    </ul>
+                                    <div class="best">BEST</div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="box">
+                                    <div class="f-img">
+                                        <a href=""><img src="img/favorites/best03.jpg" alt="벤스"></a><div class="over"><a href="">
+                                        <img src="img/favorites/best03-1.jpg" alt="벤스"></a></div>
+                                    </div>
+                                    <h5>인와이드 거실장<br>
+                                        Enwide</h5>
+                                    <h6>798,000원</h6>
+                                    <ul class="b03">
+                                        <li></li><li></li>
+                                    </ul>
+                                    <div class="best">BEST</div>
+                                </div>
+                            </li> <!-- 1단 -->
+            
+                            <li>
+                                <div class="box">
+                                    <div class="f-img">
+                                        <a href=""><img src="img/favorites/best04.jpg" alt="벤스"></a><div class="over"><a href="">
+                                        <img src="img/favorites/best04-1.jpg" alt="벤스"></a></div>
+                                    </div>
+                                    <h5>엘리아 501 퀸 침대<br>
+                                        Elia 501</h5>
+                                    <h6>487,000원</h6>
+                                    <ul class="b04">
+                                        <li></li><li></li><li></li><li></li>
+                                    </ul>
+                                    <div class="best">BEST</div>
+                                </div>
+                                
+                            </li>
+                            <li>
+                                <div class="box">
+                                    <div class="f-img">
+                                        <a href=""><img src="img/favorites/best05.jpg" alt="벤스"></a><div class="over"><a href="">
+                                        <img src="img/favorites/best05-1.gif" alt="벤스"></a></div>
+                                    </div>
+                                    <h5>스윙 천연가죽 1인 리클라이너 소파<br>
+                                        Swing</h5>
+                                    <h6>833,000원</h6>
+                                    <ul class="b05">
+                                        <li></li><li></li><li></li><li></li>
+                                    </ul>
+                                    <div class="best">BEST</div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="box">
+                                    <div class="f-img">
+                                        <a href=""><img src="img/favorites/best06.jpg" alt="벤스"></a><div class="over"><a href="">
+                                        <img src="img/favorites/best06-1.jpg" alt="벤스"></a></div>
+                                    </div>
+                                    <h5>벤스 바이런 A7 퀸침대<br>
+                                        Byron</h5>
+                                    <h6>799,000원</h6>
+                                    <ul class="b06">
+                                        <li></li><li></li>
+                                    </ul>
+                                    <div class="best">BEST</div>
+                                </div>
+                            </li> <!-- 2단 -->
+    
+                            <li>
+                                <div class="box">
+                                    <div class="f-img">
+                                        <a href=""><img src="img/favorites/new01.jpg" alt="벤스"></a><div class="over"><a href="">
+                                        <img src="img/favorites/new01-1.jpg" alt="벤스"></a></div>
+                                    </div>
+                                    <h5>헤르만 프리미엄 나파가죽 4인 트랜스폼형 소파<br>
+                                        Herman 이동욱 소파</h5>
+                                    <h6>2,697,000원</h6>
+                                    <ul class="n01">
+                                        <li></li>
+                                    </ul>
+                                    <div class="best">NEW</div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="box">
+                                    <div class="f-img">
+                                        <a href=""><img src="img/favorites/new02.jpg" alt="벤스"></a><div class="over"><a href="">
+                                        <img src="img/favorites/new02-1.jpg" alt="벤스"></a></div>
+                                    </div>
+                                    <h5>엘리자베스 천연가죽 퀸 침대<br>
+                                        Elizabeth</h5>
+                                    <h6>1,290,000원</h6>
+                                    <ul class="n02">
+                                        <li></li><li></li><li></li>
+                                    </ul>
+                                    <div class="best">NEW</div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="box">
+                                    <div class="f-img">
+                                        <a href=""><img src="img/favorites/new03.jpg" alt="벤스"></a><div class="over"><a href="">
+                                        <img src="img/favorites/new03-1.jpg" alt="벤스"></a></div>
+                                    </div>
+                                    <h5>로프트 데스크 204<br>
+                                        Loft</h5>
+                                    <h6>547,000원</h6>
+                                    <ul class="n03">
+                                        <li></li>
+                                    </ul>
+                                    <div class="best">NEW</div>
+                                </div>
+                            </li> <!-- 3단 -->
+    
+                            <li>
+                                <div class="box">
+                                    <div class="f-img">
+                                        <a href=""><img src="img/favorites/md01.jpg" alt="벤스"></a><div class="over"><a href="">
+                                        <img src="img/favorites/md01-1.jpg" alt="벤스"></a></div>
+                                    </div>
+                                    <h5>오네스 소파테이블<br>
+                                        Ones</h5>
+                                    <h6>112,000원</h6>
+                                    <ul class="md01">
+                                        <li></li>
+                                    </ul>
+                                    <div class="best-1">MD's Pick</div>
+                                </div>
+                                
+                            </li>
+                            <li>
+                                <div class="box">
+                                    <div class="f-img">
+                                        <a href=""><img src="img/favorites/md02.jpg" alt="벤스"></a><div class="over"><a href="">
+                                        <img src="img/favorites/md02-1.jpg" alt="벤스"></a></div>
+                                    </div>
+                                    <h5>로프트 장식장<br>
+                                        Loft</h5>
+                                    <h6>817,000원</h6>
+                                    <ul class="md02">
+                                        <li></li><li></li><li></li>
+                                    </ul>
+                                    <div class="best-1">MD's Pick</div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="box">
+                                    <div class="f-img">
+                                        <a href=""><img src="img/favorites/md03.jpg" alt="벤스"></a>
+                                    </div>
+                                    <h5>아니스 화장대<br>
+                                        Anis</h5>
+                                    <h6>417,000원</h6>
+                                    <ul class="md03">
+                                        <li></li>
+                                    </ul>
+                                    <div class="best-1">MD's Pick</div>
+                                </div>
+                            </li> <!-- 4단 -->
+                        </ul>
+                </div>
+
+                    
+
+                </div>
+            </div>
+        </div>
+        
+        
+        <!-- video PC-->
+        <div id="section2">
+            <div class="inner clearfix">
+                <video width="50%" muted loop autoplay>
+                    <source src="mp4/6s_pic.mp4" type="video/mp4">
+                </video>
+                <div class="v-right">
+                    <p>이동욱의 취향가구, 벤스</p>
+                    <p>벤스와 함께<br>
+                    나만의 취향공간을 완성해보세요!</p>
+                    <div class="btn"><a href="">DongWook's Pick 보러가기 →</a></div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- video mobile -->
+        <div id="section2-1">
+            <div class="inner clearfix">
+                <img src="mp4/6s_pic_mobile.gif" alt="bens">
+                <div class="v-right">
+                    <p>이동욱의 취향가구, 벤스</p>
+                    <p>벤스와 함께<br>
+                    나만의 취향공간을 완성해보세요!</p>
+                    <div class="btn-1"><a href="">DongWook's Pick 보러가기 →</a></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- media -->
+
+        <div id="section3">
+            <h1>MEDIA LOUNGE</h1>
+            <div class="inner">
+                <div class="swiper m-s">
+                    <!-- 슬라이더 선언 -->
+                    <div class="swiper-wrapper">
+                      <!-- 슬라이드 내용 -->
+                      <div class="swiper-slide"><img src="img/media/d-01.jpg" alt="벤스"></div>
+                      <div class="swiper-slide"><img src="img/media/d-02.jpg" alt="벤스"></div>
+                      <div class="swiper-slide"><img src="img/media/d-03.jpg" alt="벤스"></div>
+                      <div class="swiper-slide"><img src="img/media/d-04.jpg" alt="벤스"></div>
+                      <div class="swiper-slide"><img src="img/media/d-05.jpg" alt="벤스"></div>
+                      <div class="swiper-slide"><img src="img/media/d-06.jpg" alt="벤스"></div>
+                      <div class="swiper-slide"><img src="img/media/d-07.jpg" alt="벤스"></div>
+                      <div class="swiper-slide"><img src="img/media/d-08.jpg" alt="벤스"></div>
+                      <div class="swiper-slide"><img src="img/media/d-09.jpg" alt="벤스"></div>
+                      <div class="swiper-slide"><img src="img/media/d-10.jpg" alt="벤스"></div>
+                      <div class="swiper-slide"><img src="img/media/d-11.jpg" alt="벤스"></div>
+                      <div class="swiper-slide"><img src="img/media/d-12.jpg" alt="벤스"></div>
+                      <div class="swiper-slide"><img src="img/media/d-13.jpg" alt="벤스"></div>
+                      <div class="swiper-slide"><img src="img/media/d-14.jpg" alt="벤스"></div>
+                      <div class="swiper-slide"><img src="img/media/d-15.jpg" alt="벤스"></div>
+                      <div class="swiper-slide"><img src="img/media/d-16.jpg" alt="벤스"></div>
+                    </div>
+                  
+                    <!--  navigation buttons (슬라이드 밑에 버튼) -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                
+                </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- whybens -->
+        <div id="section4">
+            <div class="inner clearfix">
+                <div class="w-left">
+                    <img src="img/why/whybens.png" alt="벤스">
+                    <div class="over-w"><a href="#"><img src="img/why/whybens-1.png" alt="벤스"></a></div>
+                </div>
+                <div class="w-right">
+                    <div><p><a href=""><img src="img/why/event.png" alt="벤스"></a></p></div>
+                    <div><p><a href=""><img src="img/why/review.png" alt="벤스"></a></p></div>
+                    <div><p><a href="store.html"><img src="img/why/store.png" alt="벤스"></a></p></div>
+                </div>
+                <div class="w-text">BENS is about the space you stay in.<br>We are approaching with extraordinary passion.</div>
+            </div>
+        </div>
+    </main>
+
+    <!-- fixed 왼쪽배너 제이쿼리 -->
+    <ul class="s1-left-1">
+        <li>
+            <div><img src="img/favorites/left-1.jpg" alt="벤스"></div>
+            <div class="s1-over"><a href="living.html"><img src="img/favorites/left-1-1.png" alt="벤스"></a></div>
+        </li>
+        <li>
+            <div><img src="img/favorites/left-2.jpg" alt="벤스"></div>
+            <div class="s1-over"><a href="desk.html"><img src="img/favorites/left-2-1.png" alt="벤스"></a></div>
+        </li>
+        <li>
+            <div><img src="img/favorites/left-3.jpg" alt="벤스"></div>
+            <div class="s1-over"><a href="kitchen.html"><img src="img/favorites/left-3-1.png" alt="벤스"></a></div>
+        </li>
+        <li>
+            <div><img src="img/favorites/left-4.jpg" alt="벤스"></div>
+            <div class="s1-over"><a href="bed.html"><img src="img/favorites/left-4-1.png" alt="벤스"></a></div>
+        </li>
+       <div class="vr">
+            <div><img src="img/favorites/left-5.jpg" alt="벤스"></div>
+            <div class="vr-over"></div>
+            <p class="vr1">쇼룸에 직접 가 본것처럼<br>
+                VR로 생생하게 쇼룸을 경험해 보세요!</p>
+            <p class="vr2"><a href="">VR 쇼룸 바로가기→</a></p>
+       </div>
+    </ul>
+
+
+    <footer>
+        <div class="inner clearfix">
+            <div class="f-logo"><img src="img/bens_logo.png" alt="벤스"></div>
+            <div class="sns">
+                FOLLOW US
+                <a href=""><i class="xi-instagram"></i>instagram</a>
+                <a href=""><i class="xi-naver-square"></i>blog</a>
+                <a href=""><i class="xi-facebook-official"></i>facebook</a>
+                <a href=""><i class="xi-youtube-play"></i>youtube</a>
+            </div>
+            <div class="bottom clearfix">
+                <div class="f-left">
+                    <p>상호명 : 주식회사 벤스코리아 ㅣ 대표자 : 황지현, 배성민<br>
+                        대표전화 : 1544-6400 ㅣ 팩스 : 032-724-0058 ㅣ 개인정보보호관리책임자 : 황지현<br>
+                        주소 : 인천광역시 서구 봉수대로 193<br>
+                        사업자 등록번호 : 130-86-79874 ㅣ 통신판매업 신고 : 제2017-서울강남-02831호</p>
+                    <p>Copyright©2007 주식회사 벤스 All right reserved. Design by 벤스</p>
+                    <p><a href="">이용약관</a> ㅣ <a href="">개인정보취급방침</a> ㅣ <a href="">이용안내</a> </p>
+                </div>
+                <div class="f-right">
+                    <div class="store">
+                        <p>벤스-플래그쉽 스토어<br>
+                            (월 - 일 정상영업)</p>
+                        <p>벤스 팩토리 아울렛<br>	
+                            (월 - 금 정상영업)</p>
+                    </div>
+                    <div class="sitemap">
+                        <ul>
+                            <li>ABOUT</li>
+                            <li><a href="whybens.html">OUR STORIES</a></li>
+                            <li><a href="">NOTICE</a></li>
+                            <li><a href="store.html">STORE</a></li>
+                        </ul>
+                        <ul>
+                            <li>MY PAGE</li>
+                            <li><a href="">주문/배송 조회</a></li>
+                            <li><a href="">재고문의</a></li>
+                            <li><a href="">제휴 협찬 문의</a></li>
+                        </ul>
+                        <ul>
+                            <li>SUPPORT</li>
+                            <li><a href="">A/S 안내</a></li>
+                            <li><a href="">DOWNLOAD</a></li>
+                            <li class="hide">　</li>
+                            <!-- tablet -->
+                            <li class="hide-1">　</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    
+    
+</body>
+</html>

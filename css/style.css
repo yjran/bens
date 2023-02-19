@@ -1,0 +1,586 @@
+/******************************* index******************************/
+/* pc */
+
+/* mainbn */
+.mainbn {color: #fff; width:100%; overflow:hidden; position:relative; }
+.swiper-slide img {width: 100%; }
+
+.mainbtn { position:absolute; right:0; bottom:100px; width:600px; font-size:12px; }
+.mainbtn .swiper-slide { width:33%; height:100%; opacity: 0.5; color: #555;}
+.mainbtn .swiper-slide-thumb-active { opacity: 1; color: #fff; font-weight: 500; }
+.swiper-slide img { display: block; width: 100%; height: 100%; object-fit: cover; }
+
+
+.mb-1 {height: 500px;  position: absolute; left: 30px; top: 200px; z-index: 9; text-shadow: 0 0 13px rgba(0,0,0,0.2);}
+
+.mb2 {position: relative;}
+.mb-2 {height: 500px;  position: absolute; left: 30px; top: 200px; z-index: 9; text-shadow: 0 0 13px rgba(0,0,0,0.2);}
+
+.mb3 {position: relative;}
+.mb-3 {height: 500px;  position: absolute; left: 30px; top: 200px; z-index: 9; text-shadow: 0 0 13px rgba(0,0,0,0.2);}
+
+
+.mb-1 h1 {font-size: 100px;}
+.mb-1 h2 {font-size: 30px; margin-top: 20px;}
+.mb-1 h3 {font-size: 20px; margin-top: 20px; display: inline-block;}
+.mb-1 h3 a {color: #fff;}
+.mb-2 h1 {font-size: 100px;}
+.mb-2 h2 {font-size: 30px; margin-top: 20px;}
+.mb-2 h3 {font-size: 20px; margin-top: 20px; display: inline-block;}
+.mb-2 h3 a {color: #fff;}
+.mb-3 h1 {font-size: 100px;}
+.mb-3 h2 {font-size: 30px; margin-top: 20px;}
+.mb-3 h3 {font-size: 20px; margin-top: 20px; display: inline-block;}
+.mb-3 h3 a {color: #fff;}
+h3:hover a{color: #202e55; font-weight: bold;}
+
+.mainbtn {cursor: pointer;}
+.mbb {position: absolute; right: 130px; bottom: -40px; width: 500px;}  
+
+
+/* main */
+main {margin-top: 200px;}
+main h1 {text-align: center; margin-bottom: 70px;}
+
+/* section1 */
+.s1-left {float: left; width: 25%; position: relative;}
+.s1-right {float:right; width: 75%; z-index: 8;}
+.s1-right img {width: 100%;}
+.s1-left-1 { position: fixed; left:50%; top: 100px; width:1400px; transform:translateX(-50%); }
+
+.s1-left li {position: relative;}
+.s1-left li:hover .s1-over {opacity: 1;}
+
+.s1-left-1 li {position: relative;}
+.s1-over { position: absolute; left: 0; top: 0px;  opacity: 0; background: rgba(255, 255, 255, 0.9); opacity: 0; transition: opacity 0.7s;}
+.s1-left-1 li:hover .s1-over {opacity: 1;}
+
+
+.vr {position: relative;}
+.vr1 {position: absolute; left: 10px; top: 10px; color: #fff; font-size: 12px;}
+.vr2 {position: absolute;  left: 10px; bottom: 2px; font-size: 18px;}
+.vr2 a {color: #fff;}
+.vr2:hover a{font-weight: 900;}
+
+.inner-1 {width: 75%; margin: 0 auto;}
+.fav>li{float: left; width: 28%; margin-right: 8%;}
+.fav>li:nth-child(3n) {margin-right: 0;}
+
+.box {margin-bottom: 50px; position: relative;}
+.box h5 { margin: 5px 0; font-weight: normal;}
+.box h6 { margin-bottom: 10px; font-weight: 900;}
+
+.over {display: none; position: absolute; left: 0; top: 0;}
+.f-img {position: relative; }
+.f-img:hover .over {display: block;}
+
+.best {width: 30px; background: #202e55; color: #fff; font-size: 11px; text-align: center; position: absolute;  right: 0px; bottom: 75px;} 
+.best-1 {width: 60px; background: #202e55; color: #fff; font-size: 11px; text-align: center; position: absolute; right: 0px; bottom: 75px;} 
+
+/*********** 제품 색상 **********/
+.b01 li {display: inline-block; }
+.b01 li:nth-child(1) {width: 35px; height: 20px; background: #edebdb;}
+.b01 li:nth-child(2) {width: 35px; height: 20px; background: #494949;}
+.b01 li:nth-child(3) {width: 35px; height: 20px; background: #102450;}
+.b01 li:nth-child(4) {width: 35px; height: 20px; background: #a4c6e4;}
+.b01 li:nth-child(5) {width: 35px; height: 20px; background: #b86c3f;}
+
+.b02 li {display: inline-block; }
+.b02 li:nth-child(1) {width: 35px; height: 20px; background: #faf8eb;}
+.b02 li:nth-child(2) {width: 35px; height: 20px; background: #695f59; }
+
+.b03 li {display: inline-block; }
+.b03 li:nth-child(1) {width: 35px; height: 20px; background: #fff; border: 1px solid #000;}
+.b03 li:nth-child(2) {width: 35px; height: 20px; background: #000; }
+
+.b04 li {display: inline-block; }
+.b04 li:nth-child(1) {width: 35px; height: 20px; background:  #fff; border: 1px solid #000;}
+.b04 li:nth-child(2) {width: 35px; height: 20px; background:#e6cb91;}
+.b04 li:nth-child(3) {width: 35px; height: 20px; background: #000; }
+.b04 li:nth-child(4) {width: 35px; height: 20px; background: #2e2001; }
+
+.b05 li {display: inline-block; }
+.b05 li:nth-child(1) {width: 35px; height: 20px; background: #fcfbf4; border: 1px solid #000;}
+.b05 li:nth-child(2) {width: 35px; height: 20px; background: #a0bbd4; }
+.b05 li:nth-child(3) {width: 35px; height: 20px; background: #d8b04f; }
+.b05 li:nth-child(4) {width: 35px; height: 20px; background: #000; }
+
+.b06 li {display: inline-block; }
+.b06 li:nth-child(1) {width: 35px; height: 20px; background: #e2dfc4;}
+.b06 li:nth-child(2) {width: 35px; height: 20px; background: #97866b; }
+
+.n01 li:nth-child(1) {width: 35px; height: 20px; background: #0e3a2a;}
+
+.n02 li {display: inline-block; }
+.n02 li:nth-child(1) {width: 35px; height: 20px; background: #fff; border: 1px solid #000;}
+.n02 li:nth-child(2) {width: 35px; height: 20px; background: #484848; }
+.n02 li:nth-child(3) {width: 35px; height: 20px; background: #000; }
+
+.n03 li {display: inline-block; }
+.n03 li:nth-child(1) {width: 35px; height: 20px; background: #fff; border: 1px solid #000;}
+
+.md01 li:nth-child(1) {width: 35px; height: 20px; background: #000;}
+
+.md02 li {display: inline-block; }
+.md02 li:nth-child(1) {width: 35px; height: 20px; background: #fff; border: 1px solid #000;}
+.md02 li:nth-child(2) {width: 35px; height: 20px; background: #e6cb91; }
+.md02 li:nth-child(3) {width: 35px; height: 20px; background: #2e2001; }
+
+.md03 li:nth-child(1) {width: 35px; height: 20px; background: #fff; border: 1px solid #000;}
+
+/* section2 video */
+#section2 {margin: 200px 0; width: 100%; height: 395px; background: #faf8eb; color: #202e55; }
+.v-right {float: right; width: 50%; padding-left: 85px; padding-top: 70px;}
+.v-right p:nth-child(1) {font-size: 30px; margin-bottom: 30px;}
+.v-right p:nth-child(2) {margin-bottom: 30px;}
+.btn {display: inline-block;  }
+.btn a {display: block; width: 100%; border: 1px solid #202e55; width: 250px; text-align: center; padding: 20px 10px;}
+.v-right a{color: #202e55; }
+.btn:hover {background: #202e55; }
+.btn:hover a{color: #faf8eb;}
+
+#section2-1 {display: none;}
+
+/* section3 media */
+#section3 { margin: 200px 0; text-align: center;}
+#section3 .swiper-wrapper img { width:100%; }
+#section3 .swiper-button-next { background:#fff; top:22px; right:0;  height:100%; width:60px; color: #202e55; }
+#section3 .swiper-button-prev { background:#fff; top:22px; left:0;  height:100%; width:60px; color: #202e55; }
+
+/* section4 whybens */
+#section4 {width: 100%; height: 769px; background: url(../img/why/whybn-1.jpg) no-repeat center top;}
+#section4>div { position: relative;}
+.w-left {float: left; width: 30%; margin-top: 200px; border: 4px solid #fff; text-align: center; position: relative; }
+.w-left img {padding: 40px 10px;}
+.over-w{position: absolute; left: 47px; top: 0; opacity: 0;}
+.w-left:hover {background: #fff; }
+.w-left:hover .over-w{opacity: 1;}
+.w-right {float: left; width: 70%; text-align: right; margin-top: 240px; }
+.w-right>div {display: inline-block;}
+.w-right img {width:200px ;}
+.w-right>div:hover p{transform: rotateY(360deg); transition: all 0.6s;}
+
+.w-text {position: absolute; right: 50px; bottom: -100px; color: #fff; font-size: 14px; font-weight: 300;}
+
+
+/******** Tablet ********/
+@media screen and (max-width:1399px) {
+ 
+
+    /* main */
+    main {margin-top: 0px;}
+    main h1 { margin-bottom: 50px;}
+    .mbb {display: none;}
+
+    /* mainbn */
+    .mainbn {color: #555; padding-top: 70px;}
+    .mb-1 {position: static; text-shadow: none; text-align: center;}
+    .mb-1 h1 {font-size: 2.5rem; margin-top: 40px;}
+    .mb-1 h2 {font-size: 1rem; margin-top: 20px;}
+    .mb-1 h3 {font-size: 20px; margin-top: 40px;  }
+    .mb-1 h3 a {color: #202e55; border: 1px solid #202e55; padding: 15px 30px; width: 400px; }
+    .mb-2 {position: static; text-shadow: none; text-align: center;}
+    .mb-2 h1 {font-size: 2.5rem; margin-top: 40px;}
+    .mb-2 h2 {font-size: 1rem; margin-top: 20px;}
+    .mb-2 h3 {font-size: 20px; margin-top: 40px;  }
+    .mb-2 h3 a {color: #202e55; border: 1px solid #202e55; padding: 15px 30px; width: 400px; }
+    .mb-3 {position: static; text-shadow: none; text-align: center;}
+    .mb-3 h1 {font-size: 2.5rem; margin-top: 40px;}
+    .mb-3 h2 {font-size: 1rem; margin-top: 20px;}
+    .mb-3 h3 {font-size: 20px; margin-top: 40px;  }
+    .mb-3 h3 a {color: #202e55; border: 1px solid #202e55; padding: 15px 30px; width: 400px; }
+    h3:hover a{color: #fff; font-weight: bold; background: #202e55; } 
+
+    /* section1-favorites */
+    #section1 {position: relative;}
+    .s1-right {float: none; width: 100%;}
+    #section1 .over {display: none;}
+    .s1-left {display: none;}
+    .m-left {display: none;}
+    .s1-left-1 {overflow: hidden;}
+    
+
+    .inner-1 {width: 100%; margin: 0 auto;}
+    .fav>li{float: left; width: 32%; margin-right: 2%;}
+    .fav>li:nth-child(3n) {margin-right: 0;}
+    .fav img {width: 100%;}
+
+    .box {margin-bottom: 50px; position: relative; }
+    .box h5 { margin: 10px 0; font-weight: normal; height: 50px; }
+    .box h6 { margin-bottom: 10px; font-weight: 900;}
+    .best { position: absolute; right: 0px; bottom: 105px;} 
+    .best-1 { position: absolute; right: 0px; bottom: 105px;}
+
+    /* section2-video */
+    #section2 {display: none; }
+    #section2-1 {display: block; margin-top: 200px; background: #faf8eb; text-align: center; color: #202e55;}
+    #section2-1 img {width: 55%;}
+    .v-right {float: none; width: 100%; padding-left: 0; padding-top: 30px; text-align: center;}
+    .v-right p:nth-child(1) {font-size: 1.5rem; margin-bottom: 30px;}
+    .v-right p:nth-child(2) {margin-bottom: 30px;}
+    .btn-1 {display: inline-block;  }
+    .btn-1 a {display: block; width: 100%; border: 1px solid #202e55; width: 250px; text-align: center; padding: 20px 10px;}
+    .v-right a{color: #202e55; }
+    .btn-1:hover {background: #202e55; }
+    .btn-1:hover a{color: #faf8eb;}
+
+
+    /* section3 media */
+    #section3 {margin: 0; margin-top: 200px; text-align: center;}
+
+    /* section4 whybens */
+    #section4 {width: 100%; height: 300px; margin-bottom: 80px; background: url(../img/why/whybn-1-tablet.jpg) no-repeat center top; margin-top: 100px;}
+    .w-left {display: none; }
+    .w-right {float: none; width: 100%; text-align: center; margin-top: 0px; padding-top: 60px; }
+    .w-right>div {display: inline-block;}
+    .w-right>div:hover p{transform: rotateY(360deg); transition: all 0.6s;}
+    .w-text {position: static; font-size: 11px; font-weight: 300; text-align: right; margin-right: 20px;} 
+
+}
+
+
+/******* Mobile********/
+@media screen and (max-width:767px) {
+
+    .fav>li{float: left; width: 49%; margin-right: 2%;}
+    .fav>li:nth-child(2n) {margin-right: 0;}
+
+    .fav>li:nth-child(3) {margin-right: 2%;}
+    .fav>li:nth-child(9) {margin-right: 2%;}
+
+    
+    #section2-1 img {width: 100%;}
+    .v-right {float: none; width: 100%; padding-left: 0; padding-top: 30px; text-align: center;}
+    .v-right p:nth-child(1) {font-size: 1.5rem; margin-bottom: 30px;}
+    .v-right p:nth-child(2) {margin-bottom: 30px;}
+    .v-right p:nth-child(3) {border: 1px solid #202e55; width: 250px; text-align: center; padding: 20px 10px; }
+    .v-right a{color: #202e55; }
+    .v-right p:nth-child(3):hover {background: #202e55; }
+    .v-right p:nth-child(3):hover a{color: #faf8eb;}
+
+    #section3 .swiper-slide img{}
+
+    #section4 { background: url(../img/why/whybn-1-tablet768.jpg) no-repeat right top; height: 200px;}
+
+    .w-right img {width:100px ;}
+    .w-text {display: none;}
+
+}
+
+
+
+/************************* 소파/거실 living **********************/
+
+/* pc */
+
+.li-bn {position: relative;}
+.smb-l {position: absolute; left: 10%; top: 70%; }
+.smb-l h1 { font-size: 60px; color: #202e55; }
+
+.smb-r {width: 100%; padding-top: 70px ;}
+.smb-r img {width: 100%; }
+
+.menubar {margin-top: 30px; background: url(../img/living/menubar.png) repeat-y center; width: 100%; }
+.menubar li {display: inline-block; margin-right: 50px;  height: 50px; line-height: 50px; font-size: 20px;}
+.menubar-1 {font-size: 12px; text-align: right;  margin-top: 100px;}
+.menubar-1 li {display: inline-block; margin-right: 24px;}
+
+.product {margin-top: 40px;}
+
+.li-pro img {width: 100%;}
+.li-pro>li{float: left; width: 32%; margin-right: 2%;}
+.li-pro>li:nth-child(3n){margin-right: 0;}
+
+
+/* 제품색상 - living */
+.li-01 li {display: inline-block; }
+.li-01 li:nth-child(1) {width: 35px; height: 20px; background: #faf8eb;}
+.li-01 li:nth-child(2) {width: 35px; height: 20px; background: #edebdb;}
+.li-01 li:nth-child(3) {width: 35px; height: 20px; background: #77482c;}
+.li-01 li:nth-child(4) {width: 35px; height: 20px; background: #506b74;}
+.li-01 li:nth-child(5) {width: 35px; height: 20px; background: #000; }
+
+.li-02 li {display: inline-block; }
+.li-02 li:nth-child(1) {width: 35px; height: 20px; background: #fff; border: 1px solid #000;}
+.li-02 li:nth-child(2) {width: 35px; height: 20px; background: #000; }
+
+.li-04 li {display: inline-block; }
+.li-04 li:nth-child(1) {width: 35px; height: 20px; background: #faf8eb ;}
+.li-04 li:nth-child(2) {width: 35px; height: 20px; background: #edebdb;}
+.li-04 li:nth-child(3) {width: 35px; height: 20px; background: #506b74;}
+.li-04 li:nth-child(4) {width: 35px; height: 20px; background: #77482c;}
+.li-04 li:nth-child(5) {width: 35px; height: 20px; background: #000;}
+
+.li-05 li:nth-child(1) {width: 35px; height: 20px; background: #fff; border: 1px solid #000;}
+
+.li-06 li {display: inline-block; }
+.li-06 li:nth-child(1) {width: 35px; height: 20px; background: #fff; border: 1px solid #000;}
+.li-06 li:nth-child(2) {width: 35px; height: 20px; background: #4c4d51;}
+.li-06 li:nth-child(3) {width: 35px; height: 20px; background: #424862;}
+
+.li-07 li {display: inline-block; }
+.li-07 li:nth-child(1) {width: 35px; height: 20px; background: #edebdb;}
+.li-07 li:nth-child(2) {width: 35px; height: 20px; background: #77482c;}
+.li-07 li:nth-child(3) {width: 35px; height: 20px; background: #506b74;}
+.li-07 li:nth-child(4) {width: 35px; height: 20px; background: #5b5c56;}
+.li-07 li:nth-child(5) {width: 35px; height: 20px; background: #202731;}
+
+.li-08 li {display: inline-block; }
+.li-08 li:nth-child(1) {width: 35px; height: 20px; background: #fff; border: 1px solid #000;}
+.li-08 li:nth-child(2) {width: 35px; height: 20px; background: #2e2001;}
+
+.li-09 li {display: inline-block; }
+.li-09 li:nth-child(1) {width: 35px; height: 20px; background: #edebdb;}
+.li-09 li:nth-child(2) {width: 35px; height: 20px; background: #77482c;}
+.li-09 li:nth-child(3) {width: 35px; height: 20px; background: #506b74;}
+.li-09 li:nth-child(4) {width: 35px; height: 20px; background: #5b5c56;}
+.li-09 li:nth-child(5) {width: 35px; height: 20px; background: #202731;}
+.li-09 li:nth-child(6) {width: 35px; height: 20px; background: #000;}
+
+.li-10 li {display: inline-block; }
+.li-10 li:nth-child(1) {width: 35px; height: 20px; background: #77482c;}
+.li-10 li:nth-child(2) {width: 35px; height: 20px; background: #484848;}
+
+.li-11 li:nth-child(1) {width: 35px; height: 20px; background: #fff; border: 1px solid #000;}
+
+.li-12 li {display: inline-block; }
+.li-12 li:nth-child(1) {width: 35px; height: 20px; background: #fff; border: 1px solid #000;}
+.li-12 li:nth-child(2) {width: 35px; height: 20px; background: #e4a0a0;}
+.li-12 li:nth-child(3) {width: 35px; height: 20px; background: #7b7c7e;}
+
+.li-13 li {display: inline-block; }
+.li-13 li:nth-child(1) {width: 35px; height: 20px; background: #f4ded3;}
+.li-13 li:nth-child(2) {width: 35px; height: 20px; background: #c7ddc5;}
+.li-13 li:nth-child(3) {width: 35px; height: 20px; background: #b4d1de;}
+.li-13 li:nth-child(4) {width: 35px; height: 20px; background: #424862;}
+
+.li-14 li:nth-child(1) {width: 35px; height: 20px; background: #fff; border: 1px solid #000;}
+
+.li-15 li:nth-child(1) {width: 35px; height: 20px; background: #fff; border: 1px solid #000;}
+
+.li-16 li:nth-child(1) {width: 35px; height: 20px; background: #faf8eb;}
+
+.li-17 li {display: inline-block; }
+.li-17 li:nth-child(1) {width: 35px; height: 20px; background: #e2dfc4;}
+.li-17 li:nth-child(2) {width: 35px; height: 20px; background: #7b7c7e;}
+
+.li-18 li {display: inline-block; }
+.li-18 li:nth-child(1) {width: 35px; height: 20px; background: #faf8eb;}
+.li-18 li:nth-child(2) {width: 35px; height: 20px; background: #b4d1de;}
+.li-18 li:nth-child(3) {width: 35px; height: 20px; background: #506b74;}
+.li-18 li:nth-child(4) {width: 35px; height: 20px; background: #5b5c56;}
+.li-18 li:nth-child(5) {width: 35px; height: 20px; background: #77482c;}
+.li-18 li:nth-child(6) {width: 35px; height: 20px; background: #000;}
+
+.li-19 li:nth-child(1) {width: 35px; height: 20px; background: #faf8eb;}
+
+.li-20 li {display: inline-block; }
+.li-20 li:nth-child(1) {width: 35px; height: 20px; background: #fff; border: 1px solid #000;}
+.li-20 li:nth-child(2) {width: 35px; height: 20px; background: #7b7c7e;}
+.li-20 li:nth-child(3) {width: 35px; height: 20px; background: #000;}
+
+.li-21 li:nth-child(1) {width: 35px; height: 20px; background: #000;}
+
+.li-22 li:nth-child(1) {width: 35px; height: 20px; background: #a9957d;}
+
+
+/* tablet */
+@media screen and (max-width:1399px) {
+    .inner {width: 100%;}
+    .smb-l h1 { font-size: 2rem; color: #202e55; }
+
+    .menubar {margin-top: 30px; background: url(../img/living/menubar.png); }
+    .menubar li {display: inline-block; margin-right: 50px;  height: 50px; line-height: 50px; font-size: 1rem;}
+
+    .living img {width: 100%;}
+    .li-pro img {width: 100%;}
+
+
+}
+
+
+
+
+/* mobile */
+@media screen and (max-width:767px) {
+    .smb-l h1 { font-size: 1.5rem; color: #202e55; }
+
+    .menubar li {display: inline-block; margin-right: 20px;  height: 50px; line-height: 50px; font-size: 0.9rem;}
+
+    .li-pro img {width: 100%;}
+    .li-pro>li{float: left; width: 49%; margin-right: 2%;}
+    .li-pro>li:nth-child(3n){margin-right: 2%;}
+    .li-pro>li:nth-child(2n){margin-right: 0;}
+
+    
+}
+
+
+
+
+
+/************************* 침대/침실 bed **********************/
+
+/* 제품색상 - bed */
+.be-01 li {display: inline-block; }
+.be-01 li:nth-child(1) {width: 35px; height: 20px; background: #faf8eb;}
+.be-01 li:nth-child(2) {width: 35px; height: 20px; background: #ede6d6;}
+.be-01 li:nth-child(3) {width: 35px; height: 20px; background: #cccbc9;}
+.be-01 li:nth-child(4) {width: 35px; height: 20px; background: #a19e97;}
+
+.be-05 li:nth-child(1) {width: 35px; height: 20px; background: #fff; border: 1px solid #000;}
+
+.be-06 li:nth-child(1) {width: 35px; height: 20px; background: #000; }
+
+.be-10 li {display: inline-block; }
+.be-10 li:nth-child(1) {width: 35px; height: 20px; background: #edebdb;}
+.be-10 li:nth-child(2) {width: 35px; height: 20px; background: #cccbc9;}
+.be-10 li:nth-child(3) {width: 35px; height: 20px; background: #af9892;}
+.be-10 li:nth-child(4) {width: 35px; height: 20px; background: #598180;}
+.be-10 li:nth-child(5) {width: 35px; height: 20px; background: #4c4d51;}
+
+.be-12 li {display: inline-block; }
+.be-12 li:nth-child(1) {width: 35px; height: 20px; background: #edebdb;}
+.be-12 li:nth-child(2) {width: 35px; height: 20px; background: #7b7c7e;}
+
+.be-15 li {display: inline-block; }
+.be-15 li:nth-child(1) {width: 35px; height: 20px; background: #faf8eb ; }
+.be-15 li:nth-child(2) {width: 35px; height: 20px; background: #000; }
+
+.be-16 li {display: inline-block; }
+.be-16 li:nth-child(1) {width: 35px; height: 20px; background: #faf8eb;}
+.be-16 li:nth-child(2) {width: 35px; height: 20px; background: #cccbc9;}
+
+.be-18 li {display: inline-block; }
+.be-18 li:nth-child(1) {width: 35px; height: 20px; background: #faf8eb;}
+.be-18 li:nth-child(2) {width: 35px; height: 20px; background: #7b7c7e;}
+
+.be-19 li {display: inline-block; }
+.be-19 li:nth-child(1) {width: 35px; height: 20px; background: #fff; border: 1px solid #000;}
+.be-19 li:nth-child(2) {width: 35px; height: 20px; background: #e6cb91 ;}
+.be-19 li:nth-child(3) {width: 35px; height: 20px; background: #000;}
+
+
+.be-21 li:nth-child(1) {width: 35px; height: 20px; background: #50382b;}
+
+.be-26 li:nth-child(1) {width: 35px; height: 20px; background: #e6cb91;}
+
+.be-29 li {display: inline-block; }
+.be-29 li:nth-child(1) {width: 35px; height: 20px; background: #c2c0c3;}
+.be-29 li:nth-child(2) {width: 35px; height: 20px; background: #d8b04f;}
+
+
+
+/************************* 식탁/체어 kitchen **********************/
+
+/* 제품색상 - bed */
+.ki-01 li {display: inline-block; }
+.ki-01 li:nth-child(1) {width: 35px; height: 20px; background: #faf8eb;}
+.ki-01 li:nth-child(2) {width: 35px; height: 20px; background: #4f4a46;}
+
+.ki-07 li:nth-child(1) {width: 35px; height: 20px; background: #4f4a46;}
+
+.ki-08 li:nth-child(1) {width: 35px; height: 20px; background: #b68856;}
+
+.ki-09 li:nth-child(1) {width: 35px; height: 20px; background: #7b7c7e;}
+
+.ki-10 li {display: inline-block; }
+.ki-10 li:nth-child(1) {width: 35px; height: 20px; background: #b8b4b1;}
+.ki-10 li:nth-child(2) {width: 35px; height: 20px; background: #424862;}
+
+.ki-11 li {display: inline-block; }
+.ki-11 li:nth-child(1) {width: 35px; height: 20px; background: #fff; border: 1px solid #000;}
+.ki-11 li:nth-child(2) {width: 35px; height: 20px; background: #a9957d;}
+.ki-11 li:nth-child(3) {width: 35px; height: 20px; background: #000;}
+
+.ki-12 li {display: inline-block; }
+.ki-12 li:nth-child(1) {width: 35px; height: 20px; background: #bbb8a9;}
+.ki-12 li:nth-child(2) {width: 35px; height: 20px; background: #676a73;}
+.ki-12 li:nth-child(3) {width: 35px; height: 20px; background: #293e69;}
+.ki-12 li:nth-child(4) {width: 35px; height: 20px; background: #424862;}
+.ki-12 li:nth-child(5) {width: 35px; height: 20px; background:#1d3a4c ; }
+
+.ki-13 li {display: inline-block; }
+.ki-13 li:nth-child(1) {width: 35px; height: 20px; background: #e59b5f;}
+.ki-13 li:nth-child(2) {width: 35px; height: 20px; background: #a9957d;}
+.ki-13 li:nth-child(3) {width: 35px; height: 20px; background: #7b7c7e; }
+.ki-13 li:nth-child(4) {width: 35px; height: 20px; background: #000;}
+
+.ki-15 li {display: inline-block; }
+.ki-15 li:nth-child(1) {width: 35px; height: 20px; background: #ecbfba;}
+.ki-15 li:nth-child(2) {width: 35px; height: 20px; background: #a0bbd4;}
+.ki-15 li:nth-child(3) {width: 35px; height: 20px; background: #d8b04f;}
+.ki-15 li:nth-child(4) {width: 35px; height: 20px; background: #a89b8b;}
+.ki-15 li:nth-child(5) {width: 35px; height: 20px; background: #7b7c7e;}
+
+.ki-16 li {display: inline-block; }
+.ki-16 li:nth-child(1) {width: 35px; height: 20px; background: #a9957d;}
+.ki-16 li:nth-child(2) {width: 35px; height: 20px; background: #000;}
+
+
+
+/************************* 서재/수납 desk **********************/
+
+/* 제품색상 - bed */
+.de-01 li:nth-child(1) {width: 35px; height: 20px; background: #34251b;}
+
+.de-06 li {display: inline-block; }
+.de-06 li:nth-child(1) {width: 35px; height: 20px; background: #fff; border: 1px solid #000;}
+.de-06 li:nth-child(2) {width: 35px; height: 20px; background: #50382b;}
+
+.de-08 li {display: inline-block; }
+.de-08 li:nth-child(1) {width: 35px; height: 20px; background: #e59b5f;}
+.de-08 li:nth-child(2) {width: 35px; height: 20px; background: #7b7c7e;}
+.de-08 li:nth-child(3) {width: 35px; height: 20px; background: #000;}
+
+.de-10 li:nth-child(1) {width: 35px; height: 20px; background: #50382b;}
+
+.de-12 li {display: inline-block; }
+.de-12 li:nth-child(1) {width: 35px; height: 20px; background: #fcfbf4;}
+.de-12 li:nth-child(2) {width: 35px; height: 20px; background: #f4ded3;}
+.de-12 li:nth-child(3) {width: 35px; height: 20px; background: #7b7c7e;}
+.de-12 li:nth-child(4) {width: 35px; height: 20px; background: #296476; }
+.de-12 li:nth-child(5) {width: 35px; height: 20px; background: #424862;}
+
+.de-13 li {display: inline-block; }
+.de-13 li:nth-child(1) {width: 35px; height: 20px; background: #ede6d6;}
+.de-13 li:nth-child(2) {width: 35px; height: 20px; background: #f4ded3;}
+.de-13 li:nth-child(3) {width: 35px; height: 20px; background: #d8b04f;}
+.de-13 li:nth-child(4) {width: 35px; height: 20px; background: #296476; }
+
+.de-18 li {display: inline-block; }
+.de-18 li:nth-child(1) {width: 35px; height: 20px; background: #e59b5f; }
+.de-18 li:nth-child(2) {width: 35px; height: 20px; background: #7b7c7e;}
+.de-18 li:nth-child(3) {width: 35px; height: 20px; background: #3c4c6d;}
+.de-18 li:nth-child(4) {width: 35px; height: 20px; background: #000;}
+
+.de-19 li {display: inline-block; }
+.de-19 li:nth-child(1) {width: 35px; height: 20px; background: #fff; border: 1px solid #000;}
+.de-19 li:nth-child(2) {width: 35px; height: 20px; background: #7b7c7e;}
+.de-19 li:nth-child(3) {width: 35px; height: 20px; background: #000;}
+
+
+
+/************************* store **********************/
+.sto-map {margin-top: 100px; line-height: 1.7;}
+.sto1-1 {font-size: 38px; margin-bottom: 30px; font-weight: 600;}
+.sto1-2 {font-size: 25px;}
+.sto1-3 {margin-bottom: 40px; font-weight: 300;}
+
+
+
+/************************* login **********************/
+.log {padding: 250px 0; text-align: center;}
+.l-1 {font-size: 25px; }
+.l-2 {font-size: 12px; }
+.log p{font-size: 16px; font-weight: bold; line-height: 60px;}
+input{height: 40px;  }
+.l-btn{ padding: 10px; color: #202e55; font-weight: bold; margin-right: 15px;   display: inline-block; width: 170px; }
+.l-3 li {display: inline-block; margin-right: 20px; padding: 25px 0;}
+
+
+
+
+
+/************************* whybens **********************/
+.history {padding: 200px 0;}

@@ -1,0 +1,120 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+@import url('https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css');
+
+*{margin: 0; padding: 0; box-sizing:border-box;}
+body{font-family: 'Noto Sans KR', sans-serif; font-size: 16px; color: #555; }
+img{vertical-align: middle;}
+li{list-style: none;}
+a{text-decoration: none; color: #555;}
+.clearfix:after{content:""; display:block; clear:both;}
+.inner {width: 1400px; margin: 0 auto;}
+
+
+
+
+
+/***************************** 공통레이아웃 *******************/
+
+
+/************** PC**************/
+/* header */
+header {width: 100%;  position: fixed; z-index: 10; background: rgba(255,255,255,0.9);}
+#top {text-align: right; font-size: 12px;}
+#top a {margin-left: 8px;}
+#top a:hover {font-weight: bold; color: #202e55;}
+.logo { float: left; width: 120px;}
+.logo img {width: 120px;}
+.gnb {float: right; width: 700px; text-align: right; height: 50px; line-height: 50px; }
+
+.gnb>li{display: inline-block; padding:0 25px; position: relative;}
+.gnb>li>a{color: #000; font-size: 20px; }
+.sub{display: none; position: absolute; left: 0px; top: 52px; width: 120px; background: #fff; text-align: center;}
+.sub li a{color: #000; font-size: 14px; padding-left: 10px;}
+.gnb>li:hover .sub{display: block;}
+.sub li:hover{background: #202e55; }
+.sub li:hover a{color: #fff; }
+
+/* footer */
+footer {width: 100%; padding: 30px 0; font-size: 10px; background: url(../img/footerbg-4.jpg) no-repeat center top; color: #ddd;}
+footer a {color: #ddd;}
+.f-logo img {width: 100px;}
+.f-logo {float: left; width: 60%;}
+.sns {float: left; width: 33%;  text-align: right; font-size: 13px; height: 40px; line-height: 40px; margin-bottom: 20px;}
+.sns i {margin-left: 20px; }
+.sns a:hover {font-weight: 700; color: #fff;}
+.bottom {margin-top: 20px;}
+.f-left {float: left; width: 60%; line-height: 1.8; margin-top: 15px;}
+.f-right {float: right; width: 40%;}
+.store p {display: inline-block; margin-left: 50px;}
+.sitemap {font-size: 12px;}
+.sitemap ul{display: inline-block; width: 100px; margin-left: 50px; margin-top: 50px;}
+.sitemap a:hover {font-weight: 700; }
+.hide {display: none;}
+
+#mobile {display: none;}
+
+
+
+
+
+
+/********************** Tablet ********************/
+@media screen and (max-width:1399px) {
+    .inner {width: 100%;}
+
+    header {height: 70px;}
+    #top {display: none;}
+    .gnb {display: none;}
+    
+    .logo {float: none; width: 100%; text-align: center; margin-top: 10px;}
+    #mobile {display: block; position: absolute; left: 30px; top: 20px; z-index: 10;}
+    #mobile:hover {cursor: pointer;}
+    .m-pop {background: #202e55; color: #fff; text-align: right;  position: fixed; top: 70px; left: -100%; width: 60%; height: 100vh; padding-top: 50px; padding-right: 20px; z-index: 8;}
+    .m-popx { position: fixed; top: 70px; left: -100%; width: 100%; height: 100vh; background: rgba(0,0,0,0.3); z-index:7; }
+    .m-menu a {color: #fff;}
+    .m-menu2 a {color: #fff;}
+    .m-menu>li {font-size: 18px; margin-bottom: 10px;}
+    .m-sub {font-size: 13px;}
+    .m-menu2 li {display: inline-block;  margin-left: 5px;}
+
+    /* footer */
+    .f-left img {display: none;}
+    .store {display: none;}
+    footer {width: 100%; border-top: 1px solid #202e55; padding-bottom: 30px; font-size: 10px;}
+    .f-logo {float: left; width: 40%;}
+    .sns {float: left; width: 60%;  text-align: left; font-size: 13px; height: 40px; line-height: 40px; margin-bottom: 20px;}
+    .f-left {float: left; width: 48%;}
+    .f-right {float: right; width: 52%;}
+    .store p {display: inline-block; margin-left: 40px;}
+    .sitemap {font-size: 12px;}
+    .sitemap ul{display: inline-block; width: 100px; margin-left: 30px; margin-top: 0px;}
+    .hide {display: block;}
+    .hide-1 {display: none;}
+
+
+ 
+}
+
+
+
+/************************ Mobile**********************/
+@media screen and (max-width:767px) {
+
+    .m-pop { width: 100%;}
+
+
+
+    /* footer */
+    .f-logo img {width: 80px;}
+    .f-logo {float: none; width: 100%;}
+    .sns {float: none; width: 100%; font-size: 0.6rem;}
+    .sns i {margin-left: 5px; }
+    .f-left {float: none; width: 100%;}
+    .sitemap {display: none;}
+
+
+    
+
+}
+
